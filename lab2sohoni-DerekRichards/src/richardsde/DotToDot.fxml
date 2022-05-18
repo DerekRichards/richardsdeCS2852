@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="richardsde.DotToDotController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <MenuBar>
+                    <menus>
+                      <Menu mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem mnemonicParsing="false" onAction="#fileOpen" text="Open" />
+                              <MenuItem mnemonicParsing="false" onAction="#fileSave" text="Save" />
+                              <MenuItem mnemonicParsing="false" onAction="#fileClose" text="Close" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Draw">
+                        <items>
+                          <MenuItem mnemonicParsing="false" onAction="#linesOnly" text="Lines Only" />
+                              <MenuItem mnemonicParsing="false" onAction="#dotsOnly" text="Dots Only" />
+                              <MenuItem mnemonicParsing="false" onAction="#numberOfDots" text="Number of Dots" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </HBox>
+            <Canvas fx:id="imageDisplay" height="369.0" width="600.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
