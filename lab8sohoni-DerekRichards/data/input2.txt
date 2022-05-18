@@ -1,0 +1,5 @@
+Trying to read numbers and illegal characters:
+() (((()))) 00(00)00
+//// ******* $$$$$$$ @@@@@ $$$$$
+1234 {} 5678 []
+Finished attempting to read them.
